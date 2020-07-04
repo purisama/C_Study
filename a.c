@@ -1,8 +1,13 @@
 #include <stdio.h>
 
-a = 10;
-b = 20;
+int a, b;
+int sum ;
 int main()
 {
-  printf(%d ' a + b ');
+  a = 10;
+  b = 20;
+  sum = a + b;
+  
+  printf("a + b = %d", sum);
+
 }
