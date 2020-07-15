@@ -33,9 +33,9 @@ int  main()
     /*
     ผลลัพธ์ที่ได้จากการทำงานของโปรแกรม
 
-        Add             : 10+15  = 25
-        Subtract        : 20-15  = 5
-        Multiply        : 15*12  = 180
+        Add             : 75+12  = 85
+        Subtract        : 75-12  = 63
+        Multiply        : 75*12  = 900
         Devide (int)    : 75/12  = 6
         Devide (float)  : 75./12 = 6.25
 
