@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <conio.h>
 int main()
 {
   double a, b, c, s, area;
@@ -12,6 +13,7 @@ int main()
   area = sqrt(s*(s-a)*(s-b)*(s-c));
 
   printf("Area of the triangle = %.2lf\n", area);
-
+  
+  getch();
   return 0;
 }
