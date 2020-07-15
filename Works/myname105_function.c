@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-void myname()
+void myname() // กำหนดฟังก์ชัน myname
 {
     printf("Student ID :634244105 \n"); 
     printf("Full Name :Phurinat Chuaiyim \n");
@@ -14,7 +14,7 @@ void myname()
 
 int main() 
 {
-    myname();
+    myname(); // เรียกใช้ฟังก์ชัน myname
     getchar();
     return 0;
 }
