@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -10,5 +11,6 @@ int main()
 		inches=feet*12; //สมการแปลงฟุตเป็นนิ้ว
 		
 		printf("Total inches will be: %d\n",inches); //แสดงข้อความ และค่าของตัวแปลนิ้ว
+		getch();
 		return 0;
 }
