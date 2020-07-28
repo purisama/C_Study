@@ -1,14 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
 
-int cost,profit;
-float price;
+float price,cost,profit;
 
 int main ()
 {
     printf ("Enter the number of cost : ");
-    scanf("%d",&cost);
-    profit = (cost/2);
+    scanf("%f",&cost);
+    profit = (cost/.2);
     price = cost+profit;
     printf("\nTotal Price : %.2f",price);
     getch();
