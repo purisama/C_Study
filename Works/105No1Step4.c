@@ -3,7 +3,7 @@
 
 int table;
 float price;
-float sum;
+float total;
 
 int main ()
 {
@@ -12,7 +12,7 @@ int main ()
     printf("\nEnter the cost per table : ");
     scanf("%f",&price);
     sum = table*price;
-    printf("\nTotal cost : %.2f",sum);
+    printf("\nTotal cost : %.2f",total);
     getch();
     return 0;
 }
