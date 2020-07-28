@@ -1,17 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 
-int material,wage,shipment;
+float material,wage,shipment;
 float cost;
 
 int main ()
 {
     printf("Enter the cost of materials : ");
-    scanf("%d",&material);
+    scanf("%f",&material);
     printf("\nEnter the cost of wage : ");
-    scanf("%d",&wage);
+    scanf("%f",&wage);
     printf("\nEnter the cost of shipment : ");
-    scanf("%d",&shipment);
+    scanf("%f",&shipment);
     cost = material+wage+shipment;
     printf("\nTotal cost : %.2f ",cost);
     getch();
