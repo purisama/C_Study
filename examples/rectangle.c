@@ -10,7 +10,6 @@ int main(void)
         scanf("%d", &height);  
         area = width * height;  
         printf("\nArea of rectangle : %.2f\n",area);  
-        printf("Have a nice day...\n");  
         getch();  
         return 0; 
     }
