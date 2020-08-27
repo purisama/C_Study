@@ -3,6 +3,7 @@
 
 float getnum()
 {
+    float num;
     printf("Enter the number : ");
     scanf("%f",&num);
     return num;
@@ -10,6 +11,7 @@ float getnum()
 
 float getprice()
 {
+    float price;
     printf("\nEnter the price : ");
     scanf("%f",&price);
     return price;
