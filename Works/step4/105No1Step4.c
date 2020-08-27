@@ -11,7 +11,7 @@ int main ()
     scanf("%d", &table);
     printf("\nEnter the cost per table : ");
     scanf("%f",&price);
-    sum = table*price;
+    total = table*price;
     printf("\nTotal cost : %.2f",total);
     getch();
     return 0;
