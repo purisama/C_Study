@@ -1,25 +1,26 @@
 #include <stdio.h>
 #include<conio.h>
 
-int addNumbers(int a, int b);         // function prototype
-
 int main()
 {
-    int n1,n2,sum;
-
-    printf("Enters two numbers: ");
-    scanf("%d %d",&n1,&n2);
-
-    sum = addNumbers(n1, n2);        // function call
-    printf("sum = %d",sum);
+   int* pc, c;
+   
+   c = 22;
+   printf("Address of c: %p\n", &c);
+   printf("Value of c: %d\n\n", c);  // 22
+   
+   pc = &c;
+   printf("Address of pointer pc: %p\n", pc);
+   printf("Content of pointer pc: %d\n\n", *pc); // 22
+   
+   c = 11;
+   printf("Address of pointer pc: %p\n", pc);
+   printf("Content of pointer pc: %d\n\n", *pc); // 11
+   
+   *pc = 2;
+   printf("Address of c: %p\n", &c);
+   printf("Value of c: %d\n\n", c); // 2
 
     getch();
-    return 0;
-}
-
-int addNumbers(int a, int b)         // function definition   
-{
-    int result;
-    result = a+b;
-    return result;                  // return statement
+   return 0;
 }
