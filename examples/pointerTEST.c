@@ -21,6 +21,6 @@ int main()
    printf("Address of c: %p\n", &c);
    printf("Value of c: %d\n\n", c); // 2
 
-    getch();
+   getch();
    return 0;
 }
